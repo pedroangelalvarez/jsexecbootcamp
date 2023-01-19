@@ -645,6 +645,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
+svelte-custom-elements@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/svelte-custom-elements/-/svelte-custom-elements-1.0.2.tgz#56ff04c98937c42faeb8596930904035a73340c2"
+  integrity sha512-EBYjT9RXN7IFxgscuDBWB8uAqrBtEmaIQV6rk+wDQSweRwc0O5zmrmjRFfnHUcCYaMdkr+bduwNpmleyf2TOiw==
+
 svelte@^3.0.0:
   version "3.55.1"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.55.1.tgz#6f93b153e5248039906ce5fe196efdb9e05dfce8"
