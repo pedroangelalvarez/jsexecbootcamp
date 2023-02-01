@@ -8,7 +8,6 @@
   
 	onMount(() => {
 	   const nd = root.querySelectorAll('.forminput');
-	   console.log(nd);
 	   shadowRoot = root.attachShadow({ mode: "open" });
 	   shadowRoot.innerHTML = `
 			<style>
@@ -23,6 +22,20 @@
 				}
 			</style>
 			<div id="shadow">
+                <h1>Perfil profesional</h1>
+                <p>Nombre</p>
+                <input type="text" id="name" name="name" placeholder="Nombre" required>
+                <p>Apellidos</p>
+                <input type="text" id="surname" name="surname" placeholder="Apellidos" required>
+                <p>Correo electrónico</p>
+                <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                <p>Idiomas</p>
+                <div id="listLanguages">
+                <input type="range" id="english" name="english" min="0" max="100" value="0">
+                <label for="english">Inglés</label>
+                <input type="range" id="spanish" name="spanish" min="0" max="100" value="0">
+                <label for="spanish">Español</label>
+                </div>
 				<p>Lenguajes de programación que dominas</p>
 				<div id="listLanguages">
 				<ul>
@@ -68,6 +81,13 @@
 					</li>
 					</ul>
 				</div>
+                <div>
+                <p>Adjunta tu CV</p>
+                <input type="file" id="cv" name="cv" accept="application/pdf">
+                </div>
+                <div>
+                <input type="submit" value="Enviar">
+                </div>
 			</div>
 		`;
 	});
