@@ -30,7 +30,7 @@
                 <p>Correo electrónico</p>
                 <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
                 <p>Idiomas</p>
-                <div id="listLanguages">
+                <div id="listLanguagesProg">
                 <input type="range" id="english" name="english" min="0" max="100" value="0">
                 <label for="english">Inglés</label>
                 <input type="range" id="spanish" name="spanish" min="0" max="100" value="0">
