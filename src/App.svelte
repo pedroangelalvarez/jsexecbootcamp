@@ -85,8 +85,9 @@
                 <p>Adjunta tu CV</p>
                 <input type="file" id="cv" name="cv" accept="application/pdf">
                 </div>
+				<br/>
                 <div>
-                <input type="submit" value="Enviar">
+                <input type="submit" onClick="alert('Realizado');" value="Enviar">
                 </div>
 			</div>
 		`;
